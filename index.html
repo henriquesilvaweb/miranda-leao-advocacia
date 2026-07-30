@@ -27,6 +27,27 @@
   <meta name="twitter:description" content="Orientação jurídica clara, responsável e próxima.">
   <meta name="twitter:image" content="https://mirandaleao.netlify.app/assets/images/og-image.jpg">
 
+  <!-- Atualizar o domínio no JSON-LD quando o cliente registrar o domínio próprio. -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Miranda Leão Advocacia",
+      "url": "https://mirandaleao.netlify.app/",
+      "telephone": "+55 85 99648-1000",
+      "email": "brunomleao@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Barão de Studart, 1165, Sala 303",
+        "addressLocality": "Fortaleza",
+        "addressRegion": "CE",
+        "postalCode": "60120-001",
+        "addressCountry": "BR"
+      },
+      "areaServed": "Fortaleza e região"
+    }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -99,11 +120,8 @@
 
     <section class="section about" id="escritorio">
       <div class="container about-grid">
-        <!-- Espaço reservado para futura foto profissional de Bruno de Miranda Leão. -->
-        <div class="about-visual" aria-label="Espaço reservado para futura fotografia de Bruno de Miranda Leão" role="img">
-          <div class="about-monogram" aria-hidden="true">BML</div>
-          <p>Retrato profissional</p>
-        </div>
+        <!-- Substituir este bloco por fotografia oficial do advogado, equipe ou escritório. -->
+        <div class="about-visual" aria-label="Espaço reservado para futura fotografia institucional" role="img"></div>
 
         <div class="about-content">
           <p class="eyebrow">O escritório</p>
@@ -116,7 +134,22 @@
           <ul class="values" aria-label="Valores do escritório">
             <li><span>01</span>Integridade</li>
             <li><span>02</span>Serenidade</li>
-            <li><span>03</span>Compromisso</li>
+            <li>
+              <span>03</span>
+              <div>Compromisso<small>Acompanhamento pautado por seriedade e atenção.</small></div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>Comunicação clara<small>Informações apresentadas de forma direta e compreensível.</small></div>
+            </li>
+            <li>
+              <span>05</span>
+              <div>Atendimento próximo<small>Escuta atenta às particularidades de cada situação.</small></div>
+            </li>
+            <li>
+              <span>06</span>
+              <div>Análise responsável<small>Avaliação cuidadosa antes de indicar possibilidades.</small></div>
+            </li>
           </ul>
         </div>
       </div>
@@ -132,42 +165,37 @@
           <p>Atuação jurídica pautada por análise cuidadosa, linguagem acessível e respeito às particularidades de cada situação.</p>
         </div>
 
+        <!-- Futuramente, cada área de atuação poderá receber uma página própria para aprofundamento e SEO. -->
         <div class="practice-grid">
           <article class="practice-card">
             <span class="card-number">01</span>
             <h3>Direito Trabalhista</h3>
             <p>Orientação e acompanhamento em questões relacionadas às relações de trabalho, direitos e obrigações de trabalhadores e empresas.</p>
-            <span class="card-mark" aria-hidden="true">↗</span>
           </article>
           <article class="practice-card">
             <span class="card-number">02</span>
             <h3>Direito Cível</h3>
             <p>Atuação em conflitos, contratos, responsabilidade civil e outras questões que envolvem relações entre pessoas e empresas.</p>
-            <span class="card-mark" aria-hidden="true">↗</span>
           </article>
           <article class="practice-card">
             <span class="card-number">03</span>
             <h3>Direito do Consumidor</h3>
             <p>Orientação em situações envolvendo produtos, serviços, cobranças, contratos e direitos do consumidor.</p>
-            <span class="card-mark" aria-hidden="true">↗</span>
           </article>
           <article class="practice-card">
             <span class="card-number">04</span>
             <h3>Direito das Sucessões</h3>
             <p>Acompanhamento em inventários, partilhas, planejamento sucessório e organização patrimonial familiar.</p>
-            <span class="card-mark" aria-hidden="true">↗</span>
           </article>
           <article class="practice-card">
             <span class="card-number">05</span>
             <h3>Direito Empresarial</h3>
             <p>Apoio jurídico para empresas em contratos, relações comerciais, prevenção de riscos e decisões do cotidiano empresarial.</p>
-            <span class="card-mark" aria-hidden="true">↗</span>
           </article>
           <article class="practice-card">
             <span class="card-number">06</span>
             <h3>Direito Previdenciário</h3>
             <p>Orientação em benefícios, aposentadorias e outras demandas relacionadas à Previdência Social.</p>
-            <span class="card-mark" aria-hidden="true">↗</span>
           </article>
         </div>
       </div>
@@ -304,23 +332,6 @@
       </div>
     </section>
 
-    <section class="section principles" aria-labelledby="principles-title">
-      <div class="container">
-        <div class="section-heading centered-heading">
-          <p class="eyebrow">Nossa forma de atuar</p>
-          <h2 id="principles-title">Seriedade, clareza e atenção em <em>cada atendimento.</em></h2>
-        </div>
-
-        <ul class="principles-list">
-          <li><span aria-hidden="true">01</span><strong>Comunicação clara</strong><p>Informações apresentadas de forma direta e compreensível.</p></li>
-          <li><span aria-hidden="true">02</span><strong>Atendimento próximo</strong><p>Escuta atenta às particularidades de cada situação.</p></li>
-          <li><span aria-hidden="true">03</span><strong>Análise responsável</strong><p>Avaliação cuidadosa antes de indicar possibilidades.</p></li>
-          <li><span aria-hidden="true">04</span><strong>Compromisso com cada caso</strong><p>Acompanhamento pautado por seriedade e atenção.</p></li>
-          <li><span aria-hidden="true">05</span><strong>Orientação adequada</strong><p>Direcionamento compatível com a realidade do cliente.</p></li>
-        </ul>
-      </div>
-    </section>
-
     <section class="contact-cta" id="contato">
       <div class="container cta-inner">
         <div>
@@ -332,6 +343,17 @@
           Agendar uma conversa
           <span aria-hidden="true">↗</span>
         </a>
+      </div>
+
+      <!-- Endereço provisório: confirmar com o cliente antes da publicação definitiva. -->
+      <div class="container contact-map">
+        <iframe
+          src="https://www.google.com/maps?q=Av.%20Bar%C3%A3o%20de%20Studart%2C%201165%2C%20Sala%20303%2C%20Aldeota%2C%20Fortaleza%2C%20CE%2C%2060120-001&amp;output=embed"
+          title="Localização da Miranda Leão Advocacia em Fortaleza"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
       </div>
     </section>
   </main>
