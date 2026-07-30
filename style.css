@@ -883,8 +883,11 @@ button {
   }
 
   .hero-text {
-    max-width: 32rem;
+    max-width: min(30rem, calc(100% - 1rem));
     margin-bottom: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    text-align: left;
   }
 }
 
