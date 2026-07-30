@@ -906,6 +906,23 @@ button {
   fill: currentColor;
 }
 
+@media (max-width: 48rem) {
+  .hero .eyebrow {
+    margin-bottom: 1.05rem;
+  }
+
+  .hero h1 {
+    margin-bottom: 1.15rem;
+    font-size: clamp(2.5rem, 9.5vw, 3.85rem);
+    line-height: 1.02;
+  }
+
+  .hero-text {
+    max-width: 32rem;
+    margin-bottom: 1.7rem;
+  }
+}
+
 @media (min-width: 30rem) {
   .hero-actions {
     flex-direction: row;
